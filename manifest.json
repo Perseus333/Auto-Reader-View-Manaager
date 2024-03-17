@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Reader Mode",
+  "version": "1.0",
+  "permissions": ["tabs", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/icon48.png",
+      "96": "icons/icon96.png",
+      "500": "icons/icon500.png"
+    }
+  },
+  "background": {
+    "scripts": ["autoreaderview.js"]
+  },
+  "default_locale": "en"
+}

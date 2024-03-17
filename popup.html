@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Reader Mode</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    
+    <p class="title">Auto Reader Extension</p>
+    <div class="toggle">
+      <label for="modeToggle">Enable Reader Mode by default</label>
+      <input type="checkbox" id="modeToggle" checked>
+    </div>
+    <div class="blacklist-section">
+      <p>BLACKLIST</p>
+      <hr>
+      <input type="text" id="urlInputBlacklist" placeholder="Add URL to Blacklist">
+      <button id="addButtonBlacklist">Add</button>
+      <button id="addCurrentPageButtonBlacklist">Add Current Page to Blacklist</button>
+      <p id="messageBlacklist"></p>
+      <p>Blacklisted websites</p>
+      <ul id="blacklist"></ul>
+      <script src="blacklist.js"></script>
+    </div>
+
+    <div class = "whitelist-section">
+      <p>WHITELIST</p>
+      <hr>
+      <input type="text" id="urlInputWhitelist" placeholder="Add URL to Whitelist">
+      <button id="addButtonWhitelist">Add</button>
+      <button id="addCurrentPageButtonWhitelist">Add Current Page to Whitelist</button>
+      <p id="messageWhitelist"></p>
+      <p>Whitelisted websites</p>
+      <ul id="whitelist"></ul>
+      <script src="whitelist.js"></script>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

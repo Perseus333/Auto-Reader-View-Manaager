@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Auto Reader View Manager",
+    "description": "Name of the extension."
+  },
+  
+  "extensionShortName": {
+    "message": "Reader View Manager",
+    "description": "Short name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Automates and manages extensions opened in reader view",
+    "description": "Description of the extension."
+  },
+
+  "browserActionTitle": {
+    "message": "Toggle custom",
+    "description": "The title being shown when hovering over the extension's button."
+  }
+}

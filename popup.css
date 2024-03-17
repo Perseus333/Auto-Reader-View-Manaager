@@ -1,0 +1,103 @@
+/*Catppuccin mocha colortheme*/
+body {
+--ctp-rosewater:    rgb(245, 224, 220);
+--ctp-flamingo:     rgb(242, 205, 205);
+--ctp-pink:         rgb(245, 194, 231);
+--ctp-mauve:        rgb(203, 166, 247);
+--ctp-red:          rgb(243, 139, 168);
+--ctp-maroon:       rgb(235, 160, 172);
+--ctp-peach:        rgb(250, 179, 135);
+--ctp-yellow:       rgb(249, 226, 175);
+--ctp-green:        rgb(166, 227, 161);
+--ctp-teal:         rgb(148, 226, 213);
+--ctp-sky:          rgb(137, 220, 235);
+--ctp-sapphire:     rgb(116, 199, 236);
+--ctp-blue:         rgb(137, 180, 250);
+--ctp-lavender:     rgb(180, 190, 254);
+--ctp-text:         rgb(205, 214, 244);
+--ctp-subtext1:     rgb(186, 194, 222);
+--ctp-subtext0:     rgb(166, 173, 200);
+--ctp-overlay2:     rgb(147, 153, 178);
+--ctp-overlay1:     rgb(127, 132, 156);
+--ctp-overlay0:     rgb(108, 112, 134);
+--ctp-surface2:     rgb(88, 91, 112);
+--ctp-surface1:     rgb(69, 71, 90);
+--ctp-surface0:     rgb(49, 50, 68);
+--ctp-base:         rgb(30, 30, 46);
+--ctp-mantle:       rgb(24, 24, 37);
+--ctp-crust:        rgb(17, 17, 27);
+
+background-color: var(--ctp-base);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, li, label {
+  color: var(--ctp-text)
+}
+ul {
+  border: 1px solid var(--ctp-overlay0);
+  padding-top: 5px;
+  border-radius: 5px;
+}
+button {
+  background-color: var(--ctp-surface2);
+  border-radius: 5px;
+  border: none;
+  color: var(--ctp-text);
+}
+
+input {
+  background-color: var(--ctp-crust);
+  color: var(--ctp-text);
+  border-radius: 2px;
+  border: hidden;
+}
+
+.title {
+  color: var(--ctp-sky);
+}
+
+.popup-container {
+  max-width: 200px; /* Set the maximum width of the popup */
+  padding: 10px;
+  padding-top: 0px;
+  position: relative; /* Enable absolute positioning for child elements */
+}
+
+#urlInput {
+  width: 130px; /* Adjust width to accommodate buttons */
+  margin-right: 5px; /* Add a small margin to separate the input field and buttons */
+  margin-bottom: 0.5em;
+}
+
+#blacklist li {
+  margin-left: -40px;
+  white-space: nowrap; /* Prevent the text from wrapping */
+  text-overflow: ellipsis; /* Display ellipsis (...) for overflowed text */
+  overflow: hidden;
+  width: 160px; /* Adjust max-width to accommodate buttons */
+  position: relative; /* Enable absolute positioning for buttons */
+  padding-right: 30px;
+  padding-left: 5px;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+#blacklist li::after {
+  content: "";
+  display: block;
+  width: 130px;; /* Adjust the width as needed */
+  border-bottom: 1px solid var(--ctp-overlay1);
+  position: absolute;
+  margin-left: 30px;
+  bottom: 0;
+  left: 0;
+}
+
+#blacklist button {
+  position: absolute; /* Position buttons relative to list items */
+  right: 0; /* Align buttons to the right of list items */
+  top: 0; /* Align buttons vertically with list items */
+  scale: 0.8;
+  margin-top: auto;
+}
