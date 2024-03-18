@@ -1,5 +1,7 @@
 # Auto Reader View Manager
 
+![image](https://raw.githubusercontent.com/Perseus333/Auto-Reader-View-Manaager/main/icons/icon96.png)
+
 by Perseus333
 > The most powerful reader view manager. Lets the user automatically enable the reader mode when using certain websites or enable it on all websites except those in the blacklist.
 
