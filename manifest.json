@@ -14,5 +14,11 @@
   "background": {
     "scripts": ["autoreaderview.js"]
   },
-  "default_locale": "en"
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "autoreaderviewmanager@perseus333.com",
+      "strict_min_version": "109.0"
+    }
+  }  
 }
