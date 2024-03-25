@@ -5,7 +5,7 @@
 by Perseus333
 > The most powerful reader view manager. Lets the user automatically enable the reader mode when using certain websites or enable it on all websites except those in the blacklist.
 
-Get this add-on on Firefox!
+### [Get this add-on on Firefox!](https://addons.mozilla.org/en-US/firefox/addon/auto-reader-manager)
 
 ## Description
 
